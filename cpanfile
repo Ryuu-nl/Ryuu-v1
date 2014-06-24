@@ -1,7 +1,8 @@
-requires 'Dancer,   '1.3124';
-requires 'Moose',   '2.1209';
+requires 'Dancer,       '1.3124';
+requires 'Moose',       '2.1209';
+requires 'DBIx::Class', '0.08270';
 
 on 'develop' => sub {
-    requires 'Data::Printer';
-    recommends 'Devel::NYTProf';
+    requires    'Data::Printer';
+    recommends  'Devel::NYTProf';
 };
